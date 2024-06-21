@@ -81,5 +81,3 @@
 - **General Environment Variables**: `DOCKER_DRIVER`, `DOCKER_HOST`, `EKS_CLUSTER_NAME`, `AWS_DEFAULT_REGION`, `HELM_RELEASE_NAME` are used to configure Docker, AWS, and Helm settings throughout the CI/CD pipeline.
 - **GitLab CI/CD Environment Variables**: `CI_REGISTRY`, `CI_REGISTRY_IMAGE`, `CI_REGISTRY_USER`, `CI_REGISTRY_PASSWORD` are automatically set by GitLab to facilitate Docker image pushing and registry authentication.
 - **Kubernetes ConfigMaps and Secrets**: `UI_SERVICE_PORT`, `API_SERVICE_PORT`, `DATABASE_PASSWORD` are used to configure service ports and securely manage sensitive information within the Kubernetes cluster.
-
-These environment variables ensure the application is properly configured, securely managed, and correctly deployed across the development, CI/CD, and production environments.
