@@ -1,5 +1,3 @@
-Sure, let's break down the entire process into a structured, step-by-step explanation. This will help you explain the deployment of a Python Flask application on an EKS cluster using Helm charts to your manager.
-
 ### 1. Setting Up AWS Environment
 
 1. **Launch an EC2 Instance**:
@@ -62,5 +60,3 @@ Sure, let's break down the entire process into a structured, step-by-step explan
 - **Kubernetes Resources**: YAML files define deployments, services, ingress, config maps, and secrets.
 - **Helm Charts**: A Helm chart is created to package the Kubernetes resources.
 - **Deployment**: The application is deployed to the EKS cluster using Helm.
-
-This structured approach ensures that the application is containerized, managed, and deployed efficiently in a scalable Kubernetes environment on AWS.
